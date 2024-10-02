@@ -15,9 +15,8 @@ const Divider = () => (
 const PageCover = React.forwardRef((props, ref) => {
   return (
     <div
-      className="cover w-full h-full flex flex-col justify-center items-center relativep-2 text-center bg-red"
+      className="cover  flex flex-col justify-center items-center relativep-2 text-center bg-red"
       ref={ref}
-      data-density="hard"
     >
       {props.children}
     </div>
@@ -27,7 +26,7 @@ const PageCover = React.forwardRef((props, ref) => {
 const Page = React.forwardRef((props, ref) => {
   return (
     <div
-      className="page flex flex-col text-md font-primary text-primary justify-center items-center space-y-3 text-center p-2"
+      className="page  flex flex-col text-md font-primary text-primary justify-center items-center space-y-3 text-center p-2"
       ref={ref}
     >
       {props.children}
@@ -38,24 +37,23 @@ function App() {
   const [isGroomFriend, setIsGroomFriend] = useState(false);
 
   return (
-    <div className="flex justify-start items-start m-[0 auto] w-[100vw] h-[100vh] p-3">
+    <div className="w-full h-auto md:w-auto md:h-full flex justify-start items-start">
       <HTMLFlipBook
-        maxWidth={900}
-        maxHeight={1161}
-        minWidth={400}
-        minHeight={516}
+        maxWidth={500}
+        maxHeight={800}
+        minWidth={350}
+        minHeight={560}
         width={500}
-        height={645}
-        showCover={true}
+        height={800}
         flippingTime={1000}
         maxShadowOpacity={1}
         size="stretch"
-        style={{ margin: "0 auto" }}
+        style={{ padding: 2, margin: "0 auto" }}
       >
         <PageCover>
           <img
             src={getImageUrl("14.JPG")}
-            className="w-auto h-[100%] object-cover mx-auto p-2"
+            className="h-full w-full object-cover mx-auto my-auto "
           />
           <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
             <div className="text-3xl">Save the date</div>
@@ -113,7 +111,9 @@ function App() {
               ĐẾN DỰ BUỔI TIỆC CHUNG VUI CÙNG <br /> GIA ĐÌNH CHÚNG TÔI TẠI
             </div>
           </div>
-          <div className="font-secondary text-3xl m-2">Mường Thanh Luxury</div>
+          <div className="font-secondary md:text-3xl text-2xl m-2">
+            Mường Thanh Luxury
+          </div>
           <div>
             <div className="">SẢNH TRÁN GIANG - TẦNG 4</div>
             <div className="">
