@@ -5,10 +5,11 @@
 
 .page {
   box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
+  background-color: #f6eee3;
 }
 
 .cover {
-  background-color: rgb(251, 225, 139);
+  background-color: #f6eee3;
   box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
 }
 
