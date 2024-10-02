@@ -10,7 +10,7 @@ function getImageUrl(name) {
 }
 
 const Divider = () => (
-  <div className=" w-[20%] border-t-[1px] border-primary mx-auto my-2 "></div>
+  <div className=" w-[20%] border-t-[1px] border-primary mx-auto my-1 md:my-2 "></div>
 );
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -54,11 +54,11 @@ const Tam = () => {
           />
           <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
             <div className="text-3xl">Save the date</div>
-            <div className="text-3xl">22.10.2024</div>
+            <div className="text-3xl font-primary">22.10.2024</div>
           </div>
         </PageCover>
         <Page number="1">
-          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6 mt-10">
+          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6 mt-5 md:mt-10">
             <div className="flex  w-full text-sm md:text-md ">
               <div className="flex-1 text-center">
                 <div className=""> Nhà trai </div>
@@ -106,7 +106,7 @@ const Tam = () => {
           </div>
         </Page>
         <Page number="2">
-          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 mt-10">
+          <div className="flex-1 h-full flex flex-col  md:space-y-6 md:mt-10   space-y-2 mt-5 ">
             <div>
               <div className="">TRÂN TRỌNG KÍNH MỜI QUÝ GIA ĐÌNH</div>
               <Divider />
@@ -114,12 +114,12 @@ const Tam = () => {
                 ĐẾN DỰ BUỔI TIỆC CHUNG VUI CÙNG <br /> GIA ĐÌNH CHÚNG TÔI TẠI
               </div>
             </div>
-            <div className="font-secondary md:text-3xl text-2xl m-2">
+            <div className="font-secondary text-4xl m-2">
               Mường Thanh Luxury
             </div>
             <div>
               <div className="">SẢNH TRÁN GIANG - TẦNG 4</div>
-              <div className="">
+              <div className="md:text-md text-sm">
                 Khu E1, cồn Cái Khế, quận Ninh Kiều, thành phố Cần Thơ
               </div>
               <div className="">vào lúc</div>
@@ -147,14 +147,14 @@ const Tam = () => {
           </div>
         </Page>
         <Page number="3">
-          <div className="flex-1 h-full flex flex-col mt-10">
+          <div className="flex-1 h-full flex flex-col mt-5 md:mt-10">
             <div className="">Địa chỉ</div>
             <Divider />
-            <div className="font-secondary md:text-3xl text-2xl m-2">
+            <div className="font-secondary text-4xl m-2 ">
               Mường Thanh Luxury
             </div>
             <div className="">SẢNH TRÁN GIANG - TẦNG 4</div>
-            <div className="">
+            <div className="md:text-md text-sm">
               Khu E1, cồn Cái Khế, quận Ninh Kiều, thành phố Cần Thơ
             </div>
             <a
@@ -164,7 +164,7 @@ const Tam = () => {
             >
               <img
                 src={getImageUrl(`tam-maps.png`)}
-                className="w-[400px] h-[400px] object-cover mx-auto p-2 border rounded-full mt-10"
+                className="md:w-[300px] md:h-[300px] w-[250px] h-[250px] object-cover mx-auto p-2 border rounded-full mt-10"
               />
             </a>
           </div>
@@ -219,17 +219,17 @@ const Tran = () => {
           />
           <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
             <div className="text-3xl">Save the date</div>
-            <div className="text-3xl">22.10.2024</div>
+            <div className="text-3xl font-primary">22.10.2024</div>
           </div>
         </PageCover>
         <Page number="1">
-          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6 mt-10">
+          <div className="flex-1 h-full flex flex-col   md:space-y-6 md:mt-10   space-y-2 mt-5 ">
             <div className="flex  w-full text-sm md:text-md ">
               <div className="flex-1 text-center ">
                 <div className=""> Nhà gái </div>
                 <div className="">Cổ phụ : NGUYỄN ĐỨC NGUYÊN</div>
                 <div className=""> Bà : TRẦN VIỆT LIÊN</div>
-                <div className="">
+                <div className="text-sm md:text-md">
                   131 Lê Phụng Hiểu,
                   <br /> P.Vĩnh Bảo, TP.Rạch Giá,
                   <br /> Kiên Giang
@@ -270,7 +270,7 @@ const Tran = () => {
           </div>
         </Page>
         <Page number="2">
-          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 mt-10 ">
+          <div className="flex-1 h-full flex flex-col  md:space-y-6 md:mt-10   space-y-2 mt-5 ">
             <div>
               <div className="">TRÂN TRỌNG KÍNH MỜI QUÝ GIA ĐÌNH</div>
               <Divider />
@@ -278,12 +278,12 @@ const Tran = () => {
                 ĐẾN DỰ BUỔI TIỆC CHUNG VUI CÙNG <br /> GIA ĐÌNH CHÚNG TÔI TẠI
               </div>
             </div>
-            <div className="font-secondary md:text-3xl text-2xl m-2">
+            <div className="font-secondary md:text-4xl text-4xl m-2">
               Nhà hàng Royal
             </div>
             <div>
               <div className="">SẢNH DIAMON</div>
-              <div className="">
+              <div className="text-sm md:text-md">
                 Lô 9-10-11 khu biệt thự Công viên Lạc Hồng, <br /> P. Vĩnh Lạc,
                 TP. Rạch Giá, Kiên Giang
               </div>
@@ -312,7 +312,7 @@ const Tran = () => {
           </div>
         </Page>
         <Page number="3">
-          <div className="flex-1 h-full flex flex-col mt-10 ">
+          <div className="flex-1 h-full flex flex-col mt-5 md:mt-10 ">
             <div className="">Địa chỉ </div>
             <Divider />
             <div className="font-secondary md:text-3xl text-2xl m-2">
@@ -330,7 +330,7 @@ const Tran = () => {
             >
               <img
                 src={getImageUrl(`tran-maps.png`)}
-                className="w-[400px] h-[400px] object-cover mx-auto p-2 border rounded-full mt-10"
+                className="md:w-[300px] md:h-[300px] w-[250px] h-[250px] object-cover mx-auto p-2 border rounded-full mt-10"
               />
             </a>
           </div>
