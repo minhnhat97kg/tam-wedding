@@ -315,7 +315,7 @@ const Tran = () => {
           <div className="flex-1 h-full flex flex-col mt-5 md:mt-10 ">
             <div className="">Địa chỉ </div>
             <Divider />
-            <div className="font-secondary md:text-3xl text-2xl m-2">
+            <div className="font-secondary md:text-3xl text-4xl m-2">
               Nhà hàng Royal
             </div>
             <div className="">SẢNH DIAMON</div>
