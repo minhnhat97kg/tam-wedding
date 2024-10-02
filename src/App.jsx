@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 import "./App.css";
 function getImageUrl(name) {
-  return new URL(`../public/images/${name}`, import.meta.url).href;
+  return new URL(`../public/photos/${name}`, import.meta.url).href;
 }
 
 {
