@@ -58,7 +58,7 @@ const Tam = () => {
           </div>
         </PageCover>
         <Page number="1">
-          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6">
+          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6 mt-10">
             <div className="flex  w-full text-sm md:text-md ">
               <div className="flex-1 text-center">
                 <div className=""> Nhà trai </div>
@@ -106,7 +106,7 @@ const Tam = () => {
           </div>
         </Page>
         <Page number="2">
-          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 ">
+          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 mt-10">
             <div>
               <div className="">TRÂN TRỌNG KÍNH MỜI QUÝ GIA ĐÌNH</div>
               <Divider />
@@ -138,7 +138,7 @@ const Tam = () => {
             </div>
 
             <div>
-              <div className="font-secondary text-2xl m-2">Chủ hôn</div>
+              <div className="font-secondary text-4xl m-2">Chủ hôn</div>
               <div className="">Ông Hoàn Minh - Bà Ngọc Bích</div>
               <Divider />
               <div className="">ĐÓN KHÁCH: 16H30</div>
@@ -147,21 +147,25 @@ const Tam = () => {
           </div>
         </Page>
         <Page number="3">
-          <div className="flex-1 h-full flex flex-col justify-center items-center ">
-            <div className="">Địa chỉ ( nhấn vào ↓ địa chỉ để mở bản đồ)</div>
+          <div className="flex-1 h-full flex flex-col mt-10">
+            <div className="">Địa chỉ</div>
             <Divider />
+            <div className="font-secondary md:text-3xl text-2xl m-2">
+              Mường Thanh Luxury
+            </div>
+            <div className="">SẢNH TRÁN GIANG - TẦNG 4</div>
+            <div className="">
+              Khu E1, cồn Cái Khế, quận Ninh Kiều, thành phố Cần Thơ
+            </div>
             <a
               href="https://maps.app.goo.gl/7w8robveBqNtcJzv6"
               target="_blank"
               className="visited:text-primary hover:text-primary text-primary"
             >
-              <div className="font-secondary md:text-3xl text-2xl m-2">
-                Mường Thanh Luxury
-              </div>
-              <div className="">SẢNH TRÁN GIANG - TẦNG 4</div>
-              <div className="">
-                Khu E1, cồn Cái Khế, quận Ninh Kiều, thành phố Cần Thơ
-              </div>
+              <img
+                src={getImageUrl(`tam-maps.png`)}
+                className="w-[400px] h-[400px] object-cover mx-auto p-2 border rounded-full mt-10"
+              />
             </a>
           </div>
         </Page>
@@ -219,7 +223,7 @@ const Tran = () => {
           </div>
         </PageCover>
         <Page number="1">
-          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6">
+          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6 mt-10">
             <div className="flex  w-full text-sm md:text-md ">
               <div className="flex-1 text-center ">
                 <div className=""> Nhà gái </div>
@@ -266,7 +270,7 @@ const Tran = () => {
           </div>
         </Page>
         <Page number="2">
-          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 ">
+          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 mt-10 ">
             <div>
               <div className="">TRÂN TRỌNG KÍNH MỜI QUÝ GIA ĐÌNH</div>
               <Divider />
@@ -278,7 +282,7 @@ const Tran = () => {
               Nhà hàng Royal
             </div>
             <div>
-              <div className="">Sảnh Diamon</div>
+              <div className="">SẢNH DIAMON</div>
               <div className="">
                 Lô 9-10-11 khu biệt thự Công viên Lạc Hồng, <br /> P. Vĩnh Lạc,
                 TP. Rạch Giá, Kiên Giang
@@ -299,7 +303,7 @@ const Tran = () => {
             </div>
 
             <div>
-              <div className="font-secondary text-2xl m-2">Chủ hôn</div>
+              <div className="font-secondary text-4xl m-2">Chủ hôn</div>
               <div className="">Bà Việt Liên</div>
               <Divider />
               <div className="">ĐÓN KHÁCH: 10H</div>
@@ -308,22 +312,26 @@ const Tran = () => {
           </div>
         </Page>
         <Page number="3">
-          <div className="flex-1 h-full flex flex-col justify-center items-center ">
-            <div className="">Địa chỉ ( nhấn vào ↓ địa chỉ để mở bản đồ)</div>
+          <div className="flex-1 h-full flex flex-col mt-10 ">
+            <div className="">Địa chỉ </div>
             <Divider />
+            <div className="font-secondary md:text-3xl text-2xl m-2">
+              Nhà hàng Royal
+            </div>
+            <div className="">SẢNH DIAMON</div>
+            <div className="">
+              Lô 9-10-11 khu biệt thự Công viên Lạc Hồng, <br /> P. Vĩnh Lạc,
+              TP. Rạch Giá, Kiên Giang
+            </div>
             <a
               href="https://maps.app.goo.gl/FVjcYjCUdQK5SRAi6"
               target="_blank"
               className="visited:text-primary hover:text-primary text-primary"
             >
-              <div className="font-secondary md:text-3xl text-2xl m-2">
-                Nhà hàng Royal
-              </div>
-              <div className="">SẢNH Diamon</div>
-              <div className="">
-                Lô 9-10-11 khu biệt thự Công viên Lạc Hồng, <br /> P. Vĩnh Lạc,
-                TP. Rạch Giá, Kiên Giang
-              </div>
+              <img
+                src={getImageUrl(`tran-maps.png`)}
+                className="w-[400px] h-[400px] object-cover mx-auto p-2 border rounded-full mt-10"
+              />
             </a>
           </div>
         </Page>
@@ -337,7 +345,7 @@ const Tran = () => {
             </div>
           </div>
         </PageCover>
-        {Array(20)
+        {Array(39)
           .fill(0)
           .map((_, i) => {
             return (

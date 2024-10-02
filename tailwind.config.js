@@ -9,7 +9,7 @@ export default {
       secondary: "#ffffff",
     },
     fontFamily: {
-      secondary: ["secondary", "sans-serif"],
+      secondary: ["Alex Brush", "cursive"],
       primary: ["primary"],
     },
     extend: {},
