@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
   font-family: "secondary";
-  src: url("../public/fonts/UTM\ Beautiful\ Caps.ttf");
+  src: url("../public/fonts/UTMBeautifulCaps.ttf");
 }
 
 @font-face {
