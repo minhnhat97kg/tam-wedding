@@ -59,8 +59,8 @@ function App() {
           </div>
         </PageCover>
         <Page number="1">
-          <div className="flex-1 h-full flex flex-col  space-y-10 ">
-            <div className="flex text-md w-full">
+          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6">
+            <div className="flex  w-full text-sm md:text-md ">
               <div className="flex-1 text-center ">
                 <div className=""> Nhà gái </div>
                 <div className="">Cổ phụ : NGUYỄN ĐỨC NGUYÊN</div>
@@ -106,7 +106,7 @@ function App() {
           </div>
         </Page>
         <Page number="2">
-          <div className="flex-1 h-full flex flex-col  space-y-4 ">
+          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 ">
             <div>
               <div className="">TRÂN TRỌNG KÍNH MỜI QUÝ GIA ĐÌNH</div>
               <Divider />
@@ -151,7 +151,7 @@ function App() {
             <a
               href="https://maps.app.goo.gl/7w8robveBqNtcJzv6"
               target="_blank"
-              className="visited:text-primary "
+              className="visited:text-primary hover:text-primary text-primary"
             >
               <div className="font-secondary md:text-3xl text-2xl m-2">
                 Mường Thanh Luxury
