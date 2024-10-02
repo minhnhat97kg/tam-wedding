@@ -169,7 +169,7 @@ function App() {
               Một chút kĩ niệm của
             </div>
             <div className="text-[white] font-secondary  text-3xl">
-              Minh Tâm & Bảo Trân
+              Minh Tâm <br />&<br /> Bảo Trân
             </div>
           </div>
         </PageCover>
