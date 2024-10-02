@@ -30,9 +30,8 @@ const Page = React.forwardRef((props, ref) => {
     </div>
   );
 });
-function App() {
-  const [isGroomFriend, setIsGroomFriend] = useState(false);
 
+const Tam = () => {
   return (
     <div className="w-full h-auto md:w-auto md:h-full flex justify-start items-start">
       <HTMLFlipBook
@@ -61,16 +60,6 @@ function App() {
         <Page number="1">
           <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6">
             <div className="flex  w-full text-sm md:text-md ">
-              <div className="flex-1 text-center ">
-                <div className=""> Nhà gái </div>
-                <div className="">Cổ phụ : NGUYỄN ĐỨC NGUYÊN</div>
-                <div className=""> Bà : TRẦN VIỆT LIÊN</div>
-                <div className="">
-                  131 Lê Phụng Hiểu,
-                  <br /> P.Vĩnh Bảo, TP.Rạch Giá,
-                  <br /> Kiên Giang
-                </div>
-              </div>
               <div className="flex-1 text-center">
                 <div className=""> Nhà trai </div>
                 <div className="">Ông : NGUYỄN HOÀNG MINH</div>
@@ -79,6 +68,17 @@ function App() {
                   10 Quản Trọng Hoàng,
                   <br /> P.Hưng Lợi, Q. Ninh Kiều,
                   <br /> TP.Cần Thơ
+                </div>
+              </div>
+
+              <div className="flex-1 text-center ">
+                <div className=""> Nhà gái </div>
+                <div className="">Cổ phụ : NGUYỄN ĐỨC NGUYÊN</div>
+                <div className=""> Bà : TRẦN VIỆT LIÊN</div>
+                <div className="">
+                  131 Lê Phụng Hiểu,
+                  <br /> P.Vĩnh Bảo, TP.Rạch Giá,
+                  <br /> Kiên Giang
                 </div>
               </div>
             </div>
@@ -125,9 +125,11 @@ function App() {
               <div className="">vào lúc</div>
             </div>
 
-            <div className="text-3xl">17:30</div>
-            <Divider />
-            <div className="text-3xl">22.10.2024</div>
+            <div>
+              <div className="text-3xl">17:30</div>
+              <Divider />
+              <div className="text-3xl">22.10.2024</div>
+            </div>
             <div className="">nhằm ngày 20/9 AL năm Giáp Thìn</div>
             <div className="">
               Sự hiện diện của Quý vị <br /> là niềm vinh hạnh của gia đình
@@ -188,6 +190,174 @@ function App() {
       </HTMLFlipBook>
     </div>
   );
+};
+
+const Tran = () => {
+  return (
+    <div className="w-full h-auto md:w-auto md:h-full flex justify-start items-start">
+      <HTMLFlipBook
+        maxWidth={500}
+        maxHeight={800}
+        minWidth={350}
+        minHeight={560}
+        width={500}
+        height={800}
+        flippingTime={1000}
+        maxShadowOpacity={1}
+        size="stretch"
+        style={{ padding: 2, margin: "0 auto" }}
+        className="flex"
+      >
+        <PageCover>
+          <img
+            src={getImageUrl("14.jpg")}
+            className="h-full w-full object-cover mx-auto my-auto "
+          />
+          <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
+            <div className="text-3xl">Save the date</div>
+            <div className="text-3xl">22.10.2024</div>
+          </div>
+        </PageCover>
+        <Page number="1">
+          <div className="flex-1 h-full flex flex-col  md:space-y-12 space-y-6">
+            <div className="flex  w-full text-sm md:text-md ">
+              <div className="flex-1 text-center ">
+                <div className=""> Nhà gái </div>
+                <div className="">Cổ phụ : NGUYỄN ĐỨC NGUYÊN</div>
+                <div className=""> Bà : TRẦN VIỆT LIÊN</div>
+                <div className="">
+                  131 Lê Phụng Hiểu,
+                  <br /> P.Vĩnh Bảo, TP.Rạch Giá,
+                  <br /> Kiên Giang
+                </div>
+              </div>
+              <div className="flex-1 text-center">
+                <div className=""> Nhà trai </div>
+                <div className="">Ông : NGUYỄN HOÀNG MINH</div>
+                <div className=""> Bà : Quang Thị Ngọc Bích</div>
+                <div className="">
+                  10 Quản Trọng Hoàng,
+                  <br /> P.Hưng Lợi, Q. Ninh Kiều,
+                  <br /> TP.Cần Thơ
+                </div>
+              </div>
+            </div>
+
+            <div className="">
+              TRÂN TRỌNG BÁO TIN
+              <br /> LỄ TÂN HÔN CỦA CON CHÚNG TÔI
+            </div>
+
+            <div className="text-5xl font-secondary tracking-wide flex flex-col space-y-2  ">
+              <div className="font-primary text-sm"> Út nữ</div>
+              <div> Bảo Trân </div>
+              <div> & </div>
+              <div> Minh Tâm </div>
+              <div className="font-primary text-sm"> Trưởng nam </div>
+            </div>
+            <div>
+              <div>Hôn lễ được cử hành tại tư gia</div>
+              <div className="font-bold">07:00 | NGÀY 22 THÁNG 10 NĂM 2024</div>
+              <div>Nhằm ngày 20/9 AL năm Giáp Thìn</div>
+              <div>
+                131 Lê Phụng Hiểu, P. Vĩnh Bảo, TP. Rạch Giá, Kiên Giang
+              </div>
+            </div>
+          </div>
+        </Page>
+        <Page number="2">
+          <div className="flex-1 h-full flex flex-col  md:space-y-6   space-y-3 ">
+            <div>
+              <div className="">TRÂN TRỌNG KÍNH MỜI QUÝ GIA ĐÌNH</div>
+              <Divider />
+              <div className="">
+                ĐẾN DỰ BUỔI TIỆC CHUNG VUI CÙNG <br /> GIA ĐÌNH CHÚNG TÔI TẠI
+              </div>
+            </div>
+            <div className="font-secondary md:text-3xl text-2xl m-2">
+              Nhà hàng Royal
+            </div>
+            <div>
+              <div className="">Sảnh Diamon</div>
+              <div className="">
+                Lô 9-10-11 khu biệt thự Công viên Lạc Hồng, <br /> P. Vĩnh Lạc,
+                TP. Rạch Giá, Kiên Giang
+              </div>
+              <div className="">vào lúc</div>
+            </div>
+
+            <div>
+              <div className="text-3xl">11:00</div>
+              <Divider />
+              <div className="text-3xl">21.10.2024</div>
+            </div>
+            <div className="">nhằm ngày 19/9 AL năm Giáp Thìn</div>
+            <div className="">
+              Sự hiện diện của Quý vị <br /> là niềm vinh hạnh của gia đình
+              chúng tôi <br />
+              Rất hân hạnh được đón tiếp
+            </div>
+
+            <div>
+              <div className="font-secondary text-2xl m-2">Chủ hôn</div>
+              <div className="">Bà Việt Liên</div>
+              <Divider />
+              <div className="">ĐÓN KHÁCH: 10H</div>
+              <div className="">KHAI TIỆC: 11H</div>
+            </div>
+          </div>
+        </Page>
+        <Page number="3">
+          <div className="flex-1 h-full flex flex-col justify-center items-center ">
+            <div className="">Địa chỉ ( nhấn vào ↓ địa chỉ để mở bản đồ)</div>
+            <Divider />
+            <a
+              href="https://maps.app.goo.gl/FVjcYjCUdQK5SRAi6"
+              target="_blank"
+              className="visited:text-primary hover:text-primary text-primary"
+            >
+              <div className="font-secondary md:text-3xl text-2xl m-2">
+                Nhà hàng Royal
+              </div>
+              <div className="">SẢNH Diamon</div>
+              <div className="">
+                Lô 9-10-11 khu biệt thự Công viên Lạc Hồng, <br /> P. Vĩnh Lạc,
+                TP. Rạch Giá, Kiên Giang
+              </div>
+            </a>
+          </div>
+        </Page>
+        <PageCover number="4">
+          <div className="flex-1 h-full flex flex-col justify-center items-center ">
+            <div className="text-[white] font-primary  m-2 text-center text-lg">
+              Một chút kĩ niệm của
+            </div>
+            <div className="text-[white] font-secondary  text-3xl">
+              Minh Tâm <br />&<br /> Bảo Trân
+            </div>
+          </div>
+        </PageCover>
+        {Array(20)
+          .fill(0)
+          .map((_, i) => {
+            return (
+              <PageCover>
+                <img
+                  src={getImageUrl(`${i + 1}.jpg`)}
+                  className="w-auto h-[100%] object-cover mx-auto p-2"
+                />
+              </PageCover>
+            );
+          })}
+      </HTMLFlipBook>
+    </div>
+  );
+};
+function App() {
+  const isGroomFriend = window.location.href.endsWith("nha-gai");
+  console.log(isGroomFriend);
+
+  return isGroomFriend ? <Tran /> : <Tam />;
 }
 
 export default App;
