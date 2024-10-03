@@ -172,7 +172,7 @@ const Tam = () => {
         <PageCover number="4">
           <div className="flex-1 h-full flex flex-col justify-center items-center ">
             <div className="text-[white] font-primary  m-2 text-center text-lg">
-              Một chút kĩ niệm của
+              Một chút kỉ niệm của
             </div>
             <div className="text-[white] font-secondary  text-3xl">
               Minh Tâm <br />&<br /> Bảo Trân
@@ -338,7 +338,7 @@ const Tran = () => {
         <PageCover number="4">
           <div className="flex-1 h-full flex flex-col justify-center items-center ">
             <div className="text-[white] font-primary  m-2 text-center text-lg">
-              Một chút kĩ niệm của
+              Một chút kỉ niệm của
             </div>
             <div className="text-[white] font-secondary  text-3xl">
               Minh Tâm <br />&<br /> Bảo Trân
