@@ -179,7 +179,7 @@ const Tam = () => {
             </div>
           </div>
         </PageCover>
-        {Array(20)
+        {Array(26)
           .fill(0)
           .map((_, i) => {
             return (
@@ -346,7 +346,7 @@ const Tran = () => {
             </div>
           </div>
         </PageCover>
-        {Array(9)
+        {Array(26)
           .fill(0)
           .map((_, i) => {
             return (
