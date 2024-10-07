@@ -49,7 +49,7 @@ const Tam = () => {
       >
         <PageCover>
           <img
-            src={getImageUrl("12.jpg")}
+            src={getImageUrl("11.jpg")}
             className="h-full w-full object-cover mx-auto my-auto "
           />
           <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
