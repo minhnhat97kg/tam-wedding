@@ -49,7 +49,7 @@ const Tam = () => {
       >
         <PageCover>
           <img
-            src={getImageUrl("11.jpg")}
+            src={getImageUrl("cover.jpg")}
             className="h-full w-full object-cover mx-auto my-auto "
           />
           <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
@@ -179,7 +179,7 @@ const Tam = () => {
             </div>
           </div>
         </PageCover>
-        {Array(26)
+        {Array(19)
           .fill(0)
           .map((_, i) => {
             return (
@@ -191,7 +191,6 @@ const Tam = () => {
               </PageCover>
             );
           })}
-        <PageCover></PageCover>
       </HTMLFlipBook>
     </div>
   );
@@ -346,7 +345,7 @@ const Tran = () => {
             </div>
           </div>
         </PageCover>
-        {Array(26)
+        {Array(19)
           .fill(0)
           .map((_, i) => {
             return (
@@ -358,7 +357,6 @@ const Tran = () => {
               </PageCover>
             );
           })}
-        <PageCover></PageCover>
       </HTMLFlipBook>
     </div>
   );
