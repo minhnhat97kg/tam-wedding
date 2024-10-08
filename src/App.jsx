@@ -179,7 +179,7 @@ const Tam = () => {
             </div>
           </div>
         </PageCover>
-        {Array(19)
+        {Array(17)
           .fill(0)
           .map((_, i) => {
             return (
@@ -214,7 +214,7 @@ const Tran = () => {
       >
         <PageCover>
           <img
-            src={getImageUrl("14.jpg")}
+            src={getImageUrl("cover.jpg")}
             className="h-full w-full object-cover mx-auto my-auto "
           />
           <div className="flex flex-col items-center absolute font-secondary text-[50px] top-4 left-0 right-0 text-[white] ">
@@ -324,12 +324,12 @@ const Tran = () => {
               TP. Rạch Giá, Kiên Giang
             </div>
             <a
-              href="https://maps.app.goo.gl/FVjcYjCUdQK5SRAi6"
+              href="https://maps.app.goo.gl/1qpS2F96Ezs8Ew8m9"
               target="_blank"
               className="visited:text-primary hover:text-primary text-primary"
             >
               <img
-                src={getImageUrl(`tran-maps.png`)}
+                src={getImageUrl(`tran-maps-2.png`)}
                 className="md:w-[300px] md:h-[300px] w-[250px] h-[250px] object-cover mx-auto p-2 border rounded-full mt-10"
               />
             </a>
@@ -345,7 +345,7 @@ const Tran = () => {
             </div>
           </div>
         </PageCover>
-        {Array(19)
+        {Array(17)
           .fill(0)
           .map((_, i) => {
             return (
