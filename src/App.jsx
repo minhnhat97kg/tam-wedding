@@ -139,7 +139,7 @@ const Tam = () => {
 
             <div>
               <div className="font-secondary text-4xl m-2">Chủ hôn</div>
-              <div className="">Ông Hoàn Minh - Bà Ngọc Bích</div>
+              <div className="">Ông Hoàng Minh - Bà Ngọc Bích</div>
               <Divider />
               <div className="">ĐÓN KHÁCH: 16H30</div>
               <div className="">KHAI TIỆC: 17H30</div>
